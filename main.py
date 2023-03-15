@@ -43,6 +43,7 @@ class bank:
 bank_user = bank(100.00)
 
 while True:
+    bank_user.show_balance()
     try:
         action = input("Choose an action: (1 for withdrawal, 2 for deposit, 3 to show transactions)  ")
     except KeyboardInterrupt:
